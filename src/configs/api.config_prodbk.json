@@ -1,0 +1,56 @@
+{
+  "HA_PROXY_PATH": "/customers",
+  "CHECK_BY_LASER": {
+    "METHOD": "POST",
+    "URL": "https://vgateway.viriyah.co.th/dopa_checkcard/CheckCardByLaser",
+    "END_POINT": "/api/check-by-laser"
+  },
+  "SMSTimer": {
+    "METHOD": "POST",
+    "URL": "https://vgateway.viriyah.co.th/sms/AddQueMTimer",
+    "END_POINT": "/api/sms",
+    "AUTH_TYPE": "basic-auth",
+    "USERNAME": "ecom360",
+    "PASSWORD": "EC3om60"
+  },
+  "SMS": {
+    "METHOD": "POST",
+    "URL": "https://vgateway.viriyah.co.th/sms/AddQueMTimer",
+    "END_POINT": "/api/sms",
+    "AUTH_TYPE": "basic-auth",
+    "USERNAME": "vstore",
+    "PASSWORD": "vstore20",
+    "APPNAME" : "eAgency",
+    "EMP_CODE": "04766"
+  }, 
+  "GET_CUSTOMERS_BY_ID": {
+    "METHOD": "POST",
+    "URL": "https://vgateway.viriyah.co.th/cdata/GetCustomersByIDNumber",
+    "END_POINT": "/api/get-customers-by-id"
+  },
+  "AGENCYWEB_ADMINREDIRECT": {
+    "METHOD": "GET",
+    "URL": "https://viragency.viriyah.co.th/agency_new_V3/Admin/AdminRedirect.aspx" 
+  },
+  "AGENCY_APIS_test": {
+    "METHOD": "GET",
+    "URL" : "https://localhost:44331",
+    "SSID": "agencyapi",
+    "APPNAME" : "eAgency"
+  },
+  "AGENCY_APIS": {
+    "METHOD": "GET",
+    "URL" :"/api-login",   
+    "SSID": "agencyapi",
+    "APPNAME" : "eAgency"
+  },
+  "HOMEPAGE_test": {
+    "URL": "http://localhost:8080/"
+  },
+  "HOMEPAGE": {
+    "URL": "https://agency.viriyah.co.th/"
+  },
+  "UserManualUrl":{
+    "URL": "https://vmedia.viriyah.co.th/VIBPicture/usermanual"
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "label": "สอบถามเบี้ย",
+    "pathname": "/",
+    "key": "create-quatation",
+    "icon": "description"
+  },
+  {
+    "label": "รายการใบเสนอราคา",
+    "pathname": "/quatations",
+    "key": "quatations",
+    "icon": "format_list_numbered"
+  },
+  {
+    "label": "รายการใบคำขอ",
+    "pathname": "/policies",
+    "key": "policies",
+    "icon": "list"
+  },
+  {
+    "label": "แก้ไขข้อมูลส่วนตัว",
+    "pathname": "/profile",
+    "key": "profile",
+    "icon": "assignment_ind"
+  },
+  {
+    "label": "ทดสอบ",
+    "pathname": "/api-test",
+    "key": "api-test",
+    "icon": "code"
+  },
+  {
+    "label": "เปลี่ยนรหัสผ่าน",
+    "pathname": "/password-changing",
+    "key": "password-changing",
+    "icon": "vpn_key"
+  },
+  {
+    "label": "เวอร์ชั่น",
+    "pathname": "/versions",
+    "key": "versions",
+    "icon": "label_important"
+  }
+]
